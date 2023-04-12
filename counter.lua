@@ -51,11 +51,11 @@ function increment_by(value, source_settings)
         return tonumber(source_text) + value
       
       else
-        return 0
+        return Initial_counter_value
 
       end
       
-    return 0
+    return Initial_counter_value
 
   end
   
